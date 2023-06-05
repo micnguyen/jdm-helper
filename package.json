@@ -1,0 +1,29 @@
+{
+  "name": "jdm-helper",
+  "version": "1.2.0",
+  "description": "Finds websites that you have accounts with on justdeleteme.xyz and your password manager",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "justdeleteme",
+    "password",
+    "account",
+    "privacy"
+  ],
+  "author": "Michael Nguyen",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "chalk": "5.2.0",
+    "commander": "^10.0.1",
+    "conf": "^11.0.1"
+  },
+  "bin": {
+    "jdm-helper": "./index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  }
+}
