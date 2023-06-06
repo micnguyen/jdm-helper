@@ -18,7 +18,7 @@ npx jdm-helper ./my-exported-password-file.csv
 
 ## Supported Password Managers
 - **1Password**: CSV file
-To export 1Password vaults: https://support.1password.com/export/
+  - To export 1Password vaults: https://support.1password.com/export/
 
 ## TODO
 - [ ] Add support for Chrome Password Manager
