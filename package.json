@@ -17,7 +17,8 @@
   "dependencies": {
     "chalk": "5.2.0",
     "commander": "^10.0.1",
-    "conf": "^11.0.1"
+    "conf": "^11.0.1",
+    "table": "^6.8.1"
   },
   "bin": {
     "jdm-helper": "./index.js"
@@ -25,5 +26,8 @@
   "type": "module",
   "engines": {
     "node": ">=16"
+  },
+  "devDependencies": {
+    "csv-parse": "^5.4.0"
   }
 }
