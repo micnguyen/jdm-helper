@@ -2,7 +2,7 @@
 
 A CLI tool to help identify which sites on https://justdeleteme.xyz/ you have accounts on via your password manager of choice and helps you delete your account on it.
 
-![example](./docs/output_example.png)
+![example](https://raw.githubusercontent.com/micnguyen/jdm-helper/main/docs/output_example.png)
 
 ## Dependencies
 - Node >=v16
