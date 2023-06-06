@@ -1,6 +1,7 @@
 import { readCsv } from "../utils/csvReader.js";
 import { renderTable } from "../utils/renderer.js";
 import { downloader } from "../utils/downloader.js";
+import chalk from "chalk";
 import appPackage from "../package.json" assert { type: "json" }; // experimental node flag to import json: https://nodejs.org/docs/latest-v16.x/api/esm.html#json-modules
 
 export const parse = async (file) => {
@@ -48,5 +49,6 @@ export const parse = async (file) => {
       filename: file,
       inputData: result
     })
+    console.log(chalk.bold.bgRed('** Remember to delete your exported password file! **'))
   })
 }
