@@ -13,7 +13,7 @@ A CLI tool to help identify which sites on https://justdeleteme.xyz/ you have ac
 npx jdm-helper [path_to_password_file]
 
 // Example:
-npx jdm-helper ./my-exported-password-file.csv
+npx jdm-helper ./test_data/1PasswordExport-example.csv
 ```
 
 ## Supported Password Managers
