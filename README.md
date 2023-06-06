@@ -21,6 +21,7 @@ npx jdm-helper ./test_data/1PasswordExport-example.csv
   - To export 1Password vaults: https://support.1password.com/export/
 
 ## TODO
+- [ ] Add notes field support 
 - [ ] Add support for Chrome Password Manager
 - [ ] Add support for Bitwarden
 - [ ] Add support for iCloud Keychain
